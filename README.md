@@ -10,4 +10,5 @@ STREAM_IN=https://live-hls-web-aje.getaj.net/AJE/index.m3u8
 STREAM_OUT=rtmp://a.rtmp.youtube.com/live2/1x2r-mf66-kfqm-y7m0-60vu
 ```
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/ga2vjP?referralCode=373)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/RrYliS?referralCode=wansaw)
+
