@@ -1,0 +1,26 @@
+{
+  "name": "Docker Restreamer",
+  "logo": "https://nzbusenet.com/wp-content/uploads/2017/04/jackett-logo.png",
+  "description": "RETREAM",
+  "repository": "https://github.com/amjiddader/railway_strm",
+  "keywords": ["docker", "jackett", "rss", "heroku", "cloudflare"],
+  "stack": "container",
+  "success_url": "/",
+  "env": {
+    "AdminPassword": {
+      "description": "Jackett Admin Password (change in github)",
+      "value": "null",
+      "required": false
+    },
+    "STREAM_IN": {
+      "description": "m3u8 ingest url",
+      "value": "https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
+      "required": true
+    },
+     "STREAM_OUT": {
+      "description": "rtmp streaming url",
+      "value": "rtmp:////",
+      "required": true
+    }
+  }
+}
